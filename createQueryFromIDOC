@@ -1,0 +1,23 @@
+import com.sap.gateway.ip.core.customdev.util.Message;
+import groovy.xml.*;
+
+
+def Message processData(Message message) {
+    //Read Body
+    def body = message.getBody(Reader)
+    def ZMAT_DEMO = new XmlSlurper().parse(body)    
+    
+    println ZMAT_DEMO
+
+    //Fetch IdocNum and MsgType
+    String idoc_num = ZMAT_DEMO.IDOC.EDI_DC40.DOCNUM
+    String sender = ZMAT_DEMO.IDOC.EDI_DC40.MESTYP
+   
+    //create query 
+    def query = idoc_num +  "/" + sender
+
+    //set query as property
+    message.setProperty("query" ,query)
+
+    return message
+}
