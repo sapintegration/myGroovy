@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZMAT_DEMO>
+   <IDOC BEGIN="1">
+      <EDI_DC40 SEGMENT="1">
+         <TABNAM>EDI_DC40</TABNAM>
+         <MANDT>100</MANDT>
+         <DOCNUM>0000000000008182</DOCNUM>
+         <DOCREL>754</DOCREL>
+         <STATUS>30</STATUS>
+         <DIRECT>1</DIRECT>
+         <OUTMOD>2</OUTMOD>
+         <IDOCTYP>MATMAS05</IDOCTYP>
+         <CIMTYP>ZMAT_DEMO</CIMTYP>
+         <MESTYP>MATMAS</MESTYP>
+         <STDMES>MATMAS</STDMES>
+         <SNDPOR>SAPS19</SNDPOR>
+         <SNDPRT>LS</SNDPRT>
+         <SNDPRN>S19CLNT100</SNDPRN>
+         <RCVPOR>CPID8160F7</RCVPOR>
+         <RCVPRT>LS</RCVPRT>
+         <RCVPRN>CPID8160F7</RCVPRN>
+         <CREDAT>20200715</CREDAT>
+         <CRETIM>083313</CRETIM>
+         <SERIAL>20200714054819</SERIAL>
+      </EDI_DC40>
+      <E1MARAM SEGMENT="1">
+         <MSGFN>005</MSGFN>
+         <MATNR>TG11</MATNR>
+         <ERSDA>20191008</ERSDA>
+         <ERNAM>YASHBASIS</ERNAM>
+         <LAEDA>20200713</LAEDA>
+         <AENAM>PITABASHB</AENAM>
+         <PSTAT>KVEDLBS</PSTAT>
+         <MTART>HAWA</MTART>
+         <MBRSH>M</MBRSH>
+         <MATKL>L001</MATKL>
+         <MEINS>PCE</MEINS>
+         <BLANZ>000</BLANZ>
+         <BRGEW>18.000</BRGEW>
+         <NTGEW>16.200</NTGEW>
+         <GEWEI>KGM</GEWEI>
+         <VOLUM>0.180</VOLUM>
+         <VOLEH>MTQ</VOLEH>
+         <TRAGR>0001</TRAGR>
+         <SPART>00</SPART>
+         <WESCH>0.000</WESCH>
+         <LAENG>0.000</LAENG>
+         <BREIT>0.000</BREIT>
+         <HOEHE>0.000</HOEHE>
+         <PRDHA>000030000200003</PRDHA>
+         <ERGEW>0.000</ERGEW>
+         <ERVOL>0.000</ERVOL>
+         <GEWTO>0.0</GEWTO>
+         <VOLTO>0.0</VOLTO>
+         <FUELG>0</FUELG>
+         <STFAK>0</STFAK>
+         <MHDRZ>0</MHDRZ>
+         <MHDHB>0</MHDHB>
+         <MHDLP>0</MHDLP>
+         <VPSTA>KVEDLBZXS</VPSTA>
+         <MSTDE>00000000</MSTDE>
+         <MSTDV>00000000</MSTDV>
+         <COMPL>00</COMPL>
+         <MTPOS_MARA>NORM</MTPOS_MARA>
+         <GEWTO_NEW>0.0</GEWTO_NEW>
+         <VOLTO_NEW>0.0</VOLTO_NEW>
+         <ANP>000000000</ANP>
+         <MATNR_LONG>TG11</MATNR_LONG>
+         <Z1MATMAS SEGMENT="1">
+            <MATERIAL_EXT>TG11_EXT</MATERIAL_EXT>
+            <UOM_EXT>KG</UOM_EXT>
+         </Z1MATMAS>
+         <E1MARA1 SEGMENT="1">
+            <MATNR_EXTERNAL>TG11</MATNR_EXTERNAL>
+            <MAXC>0.000</MAXC>
+            <MAXC_TOL>0.0</MAXC_TOL>
+            <MAXL>0.000</MAXL>
+            <MAXB>0.000</MAXB>
+            <MAXH>0.000</MAXH>
+            <QQTIME>0</QQTIME>
+            <MEDIUM>/</MEDIUM>
+            <COMMODITY>/</COMMODITY>
+            <SCM_MATURITY_DUR>0</SCM_MATURITY_DUR>
+            <SCM_SHLF_LFE_REQ_MAX>0</SCM_SHLF_LFE_REQ_MAX>
+         </E1MARA1>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>1</SPRAS>
+            <MAKTX>贸易货物 11，PD，地区贸易</MAKTX>
+            <SPRAS_ISO>ZH</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>2</SPRAS>
+            <MAKTX>สินค้าเพื่อขาย 11, PD, การซื้อขายปกติ</MAKTX>
+            <SPRAS_ISO>TH</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>3</SPRAS>
+            <MAKTX>교역품 11, PD, 정기 거래</MAKTX>
+            <SPRAS_ISO>KO</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>4</SPRAS>
+            <MAKTX>Produse com.11,PD,comerţ normal</MAKTX>
+            <SPRAS_ISO>RO</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>5</SPRAS>
+            <MAKTX>Trgovsko blago 11, PD, redno trgovanje</MAKTX>
+            <SPRAS_ISO>SL</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>6</SPRAS>
+            <MAKTX>Trgovačka roba 11, PD, redovno trgovanje</MAKTX>
+            <SPRAS_ISO>HR</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>8</SPRAS>
+            <MAKTX>Промисловий товар 11,PD,звич.торгівля</MAKTX>
+            <SPRAS_ISO>UK</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>9</SPRAS>
+            <MAKTX>Kaub. toode 11, PD, tav. kauplemine</MAKTX>
+            <SPRAS_ISO>ET</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>A</SPRAS>
+            <MAKTX>بضائع تجارية 11، PD، تداول إقليمي</MAKTX>
+            <SPRAS_ISO>AR</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>B</SPRAS>
+            <MAKTX>סחורה 11,PD, סחר רגיל</MAKTX>
+            <SPRAS_ISO>HE</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>C</SPRAS>
+            <MAKTX>Obch.zboží 11,PD,běž.obchod</MAKTX>
+            <SPRAS_ISO>CS</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>D</SPRAS>
+            <MAKTX>Handelsware 11, PD, normaler Handel</MAKTX>
+            <SPRAS_ISO>DE</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>E</SPRAS>
+            <MAKTX>Trad.Good 11,PD,Reg.Trading</MAKTX>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>F</SPRAS>
+            <MAKTX>Prod.cial. 11,PD,Commerce enregistré</MAKTX>
+            <SPRAS_ISO>FR</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>G</SPRAS>
+            <MAKTX>Εμπορ.Προϊόν 11,PD,Καν.Συναλλαγών</MAKTX>
+            <SPRAS_ISO>EL</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>H</SPRAS>
+            <MAKTX>Ker. áru 11, PD, normál ker.</MAKTX>
+            <SPRAS_ISO>HU</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>I</SPRAS>
+            <MAKTX>Art. comm. 11 PD, commercio registrato</MAKTX>
+            <SPRAS_ISO>IT</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>J</SPRAS>
+            <MAKTX>商品 11、PD、標準取引</MAKTX>
+            <SPRAS_ISO>JA</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>K</SPRAS>
+            <MAKTX>Handelsvare 11,PD,regulær handel</MAKTX>
+            <SPRAS_ISO>DA</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>L</SPRAS>
+            <MAKTX>Towar handlowy 11, PD, norm. handel</MAKTX>
+            <SPRAS_ISO>PL</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>M</SPRAS>
+            <MAKTX>貿易貨物 11、PD、一般貿易</MAKTX>
+            <SPRAS_ISO>ZF</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>N</SPRAS>
+            <MAKTX>Hand.goed. 11, PD, gewone handel</MAKTX>
+            <SPRAS_ISO>NL</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>O</SPRAS>
+            <MAKTX>Handelsvare 11, PD, regulær handel</MAKTX>
+            <SPRAS_ISO>NO</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>P</SPRAS>
+            <MAKTX>Prod.comerc.10,PD,marca registrada</MAKTX>
+            <SPRAS_ISO>PT</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>Q</SPRAS>
+            <MAKTX>Obch.tovar 11, PD, norm.obchod</MAKTX>
+            <SPRAS_ISO>SK</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>R</SPRAS>
+            <MAKTX>Торг.изд.11,PD,обыч.торговля</MAKTX>
+            <SPRAS_ISO>RU</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>S</SPRAS>
+            <MAKTX>Mercadería 11, PD, comercio registrado</MAKTX>
+            <SPRAS_ISO>ES</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>T</SPRAS>
+            <MAKTX>Ticari ürün 11,PD,kayıtlı ticaret</MAKTX>
+            <SPRAS_ISO>TR</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>U</SPRAS>
+            <MAKTX>Kauppatavara 11, PD, normaali kauppa</MAKTX>
+            <SPRAS_ISO>FI</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>V</SPRAS>
+            <MAKTX>Handelsvara 11,PD,normal handel</MAKTX>
+            <SPRAS_ISO>SV</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>W</SPRAS>
+            <MAKTX>Търг.стока 11,PD,обич.търговия</MAKTX>
+            <SPRAS_ISO>BG</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>X</SPRAS>
+            <MAKTX>Prek.gam. 11,PD,reg.prekyba</MAKTX>
+            <SPRAS_ISO>LT</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>Y</SPRAS>
+            <MAKTX>Tirdzn. prece 11,PD, parasta tirdzniec.</MAKTX>
+            <SPRAS_ISO>LV</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>c</SPRAS>
+            <MAKTX>Mercaderia 11, PC, comerç registrat</MAKTX>
+            <SPRAS_ISO>CA</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>d</SPRAS>
+            <MAKTX>Trgovačka roba 11, PD, redovno trgovanje</MAKTX>
+            <SPRAS_ISO>SH</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>묩</SPRAS>
+            <MAKTX>व्यापार सामान 11,PD,पंजीकृत व्यापार</MAKTX>
+            <SPRAS_ISO>HI</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>뱋</SPRAS>
+            <MAKTX>Сауда тауарлары 11, PD, әдепкі сауда</MAKTX>
+            <SPRAS_ISO>KK</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MAKTM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <SPRAS>쁩</SPRAS>
+            <MAKTX>Hàng th.m 11,PD,giao dịch đăng ký</MAKTX>
+            <SPRAS_ISO>VI</SPRAS_ISO>
+         </E1MAKTM>
+         <E1MARCM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <WERKS>1710</WERKS>
+            <PSTAT>BEVDLS</PSTAT>
+            <EKGRP>002</EKGRP>
+            <DISMM>PD</DISMM>
+            <DISPO>001</DISPO>
+            <PLIFZ>0</PLIFZ>
+            <WEBAZ>0</WEBAZ>
+            <PERKZ>M</PERKZ>
+            <AUSSS>0.00</AUSSS>
+            <DISLS>EX</DISLS>
+            <BESKZ>F</BESKZ>
+            <MINBE>0.000</MINBE>
+            <EISBE>0.000</EISBE>
+            <BSTMI>0.000</BSTMI>
+            <BSTMA>0.000</BSTMA>
+            <BSTFE>0.000</BSTFE>
+            <BSTRF>0.000</BSTRF>
+            <MABST>0.000</MABST>
+            <LOSFX>0</LOSFX>
+            <AUSDT>00000000</AUSDT>
+            <FHORI>000</FHORI>
+            <BEARZ>0.00</BEARZ>
+            <RUEZT>0.00</RUEZT>
+            <TRANZ>0.00</TRANZ>
+            <BASMG>0.000</BASMG>
+            <DZEIT>0</DZEIT>
+            <MAXLZ>0</MAXLZ>
+            <UEETO>0.0</UEETO>
+            <UNETO>0.0</UNETO>
+            <WZEIT>1</WZEIT>
+            <VZUSL>0.00</VZUSL>
+            <UMLMC>0.000</UMLMC>
+            <LADGR>0001</LADGR>
+            <LGRAD>0.0</LGRAD>
+            <OBJID>00000000</OBJID>
+            <MTVFP>02</MTVFP>
+            <VRVEZ>0.00</VRVEZ>
+            <VBAMG>0.000</VBAMG>
+            <VBEAZ>0.00</VBEAZ>
+            <PRCTR>YB700</PRCTR>
+            <TRAME>0.000</TRAME>
+            <FXHOR>000</FXHOR>
+            <VINT1>000</VINT1>
+            <VINT2>000</VINT2>
+            <LOSGR>0.000</LOSGR>
+            <KAUSF>0.00</KAUSF>
+            <TAKZT>0</TAKZT>
+            <VRBDT>00000000</VRBDT>
+            <VRBFK>0.00</VRBFK>
+            <PREND>00000000</PREND>
+            <PRENG>00000000</PRENG>
+            <PRFRQ>0</PRFRQ>
+            <STRGR>40</STRGR>
+            <SHZET>00</SHZET>
+            <MMSTD>00000000</MMSTD>
+            <DPLHO>0</DPLHO>
+            <MINLS>0.000</MINLS>
+            <MAXLS>0.000</MAXLS>
+            <FIXLS>0.000</FIXLS>
+            <LTINC>0.000</LTINC>
+            <COMPL>00</COMPL>
+            <EISLO>0.000</EISLO>
+            <E1MARC1 SEGMENT="1">
+               <SCM_GRPRT>0</SCM_GRPRT>
+               <SCM_GIPRT>0</SCM_GIPRT>
+               <SCM_SCOST>0.000</SCM_SCOST>
+               <SCM_RELDT>0</SCM_RELDT>
+               <SCM_SSPEN>0.000</SCM_SSPEN>
+               <SCM_CONHAP>0.000</SCM_CONHAP>
+               <SCM_CONHAP_OUT>0.000</SCM_CONHAP_OUT>
+               <SCM_SHELF_LIFE_DUR>0</SCM_SHELF_LIFE_DUR>
+               <SCM_MATURITY_DUR>0</SCM_MATURITY_DUR>
+               <SCM_SHLF_LFE_REQ_MIN>0</SCM_SHLF_LFE_REQ_MIN>
+               <SCM_SHLF_LFE_REQ_MAX>0</SCM_SHLF_LFE_REQ_MAX>
+               <SCM_REORD_DUR>0</SCM_REORD_DUR>
+               <SCM_TARGET_DUR>0</SCM_TARGET_DUR>
+               <SCM_PEG_PAST_ALERT>0</SCM_PEG_PAST_ALERT>
+               <SCM_PEG_FUTURE_ALERT>0</SCM_PEG_FUTURE_ALERT>
+               <SCM_PEG_STRATEGY>00</SCM_PEG_STRATEGY>
+               <SCM_PRIO>0</SCM_PRIO>
+               <SCM_MIN_PASS_AMOUNT>0.000</SCM_MIN_PASS_AMOUNT>
+               <SCM_THRUPUT_TIME>0</SCM_THRUPUT_TIME>
+               <SCM_SAFTY_V>0.000</SCM_SAFTY_V>
+               <SCM_PPSAFTYSTK>0.000</SCM_PPSAFTYSTK>
+               <SCM_PPSAFTYSTK_V>0.000</SCM_PPSAFTYSTK_V>
+               <SCM_REPSAFTY>0.000</SCM_REPSAFTY>
+               <SCM_REPSAFTY_V>0.000</SCM_REPSAFTY_V>
+               <SCM_REORD_V>0.000</SCM_REORD_V>
+               <SCM_MAXSTOCK_V>0.000</SCM_MAXSTOCK_V>
+               <SCM_SCOST_PRCNT>0.00</SCM_SCOST_PRCNT>
+               <SCM_PROC_COST>0.000</SCM_PROC_COST>
+               <SCM_NDCOSTWE>0.000</SCM_NDCOSTWE>
+               <SCM_NDCOSTWA>0.000</SCM_NDCOSTWA>
+            </E1MARC1>
+            <E1MARDM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <LGORT>1000</LGORT>
+               <PSTAT>L</PSTAT>
+               <LMINB>0.000</LMINB>
+               <LBSTF>0.000</LBSTF>
+               <BSKRF>0.0000000000000000E+00</BSKRF>
+            </E1MARDM>
+            <E1MARDM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <LGORT>171A</LGORT>
+               <PSTAT>L</PSTAT>
+               <LMINB>0.000</LMINB>
+               <LBSTF>0.000</LBSTF>
+               <BSKRF>0.0000000000000000E+00</BSKRF>
+            </E1MARDM>
+            <E1MARDM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <LGORT>171R</LGORT>
+               <PSTAT>L</PSTAT>
+               <LMINB>0.000</LMINB>
+               <LBSTF>0.000</LBSTF>
+               <BSKRF>0.0000000000000000E+00</BSKRF>
+            </E1MARDM>
+            <E1MPGDM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+            </E1MPGDM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200701</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200601</ERTAG>
+               <VBWRT>1.000</VBWRT>
+               <KOVBW>1.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200501</ERTAG>
+               <VBWRT>1.000</VBWRT>
+               <KOVBW>1.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200401</ERTAG>
+               <VBWRT>13.000</VBWRT>
+               <KOVBW>13.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200301</ERTAG>
+               <VBWRT>2086.000</VBWRT>
+               <KOVBW>2086.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200201</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200101</ERTAG>
+               <VBWRT>56.000</VBWRT>
+               <KOVBW>56.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20191201</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20191101</ERTAG>
+               <VBWRT>2023.000</VBWRT>
+               <KOVBW>2023.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20191001</ERTAG>
+               <VBWRT>1084.000</VBWRT>
+               <KOVBW>1084.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190901</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190801</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190701</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190601</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190501</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190401</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190301</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190201</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEGM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190101</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEGM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200701</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200601</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200501</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200401</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200301</ERTAG>
+               <VBWRT>1999.000</VBWRT>
+               <KOVBW>1999.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200201</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20200101</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20191201</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20191101</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20191001</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190901</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190801</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190701</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190601</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190501</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190401</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190301</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190201</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+            <E1MVEUM SEGMENT="1">
+               <MSGFN>005</MSGFN>
+               <ERTAG>20190101</ERTAG>
+               <VBWRT>0.000</VBWRT>
+               <KOVBW>0.000</KOVBW>
+               <KZEXI>X</KZEXI>
+               <ANTEI>0.00</ANTEI>
+            </E1MVEUM>
+         </E1MARCM>
+         <E1MARCM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <WERKS>1711</WERKS>
+            <PSTAT>B</PSTAT>
+            <PLIFZ>0</PLIFZ>
+            <WEBAZ>0</WEBAZ>
+            <PERKZ>M</PERKZ>
+            <AUSSS>0.00</AUSSS>
+            <MINBE>0.000</MINBE>
+            <EISBE>0.000</EISBE>
+            <BSTMI>0.000</BSTMI>
+            <BSTMA>0.000</BSTMA>
+            <BSTFE>0.000</BSTFE>
+            <BSTRF>0.000</BSTRF>
+            <MABST>0.000</MABST>
+            <LOSFX>0</LOSFX>
+            <AUSDT>00000000</AUSDT>
+            <BEARZ>0.00</BEARZ>
+            <RUEZT>0.00</RUEZT>
+            <TRANZ>0.00</TRANZ>
+            <BASMG>0.000</BASMG>
+            <DZEIT>0</DZEIT>
+            <MAXLZ>0</MAXLZ>
+            <UEETO>0.0</UEETO>
+            <UNETO>0.0</UNETO>
+            <WZEIT>0</WZEIT>
+            <VZUSL>0.00</VZUSL>
+            <UMLMC>0.000</UMLMC>
+            <LGRAD>0.0</LGRAD>
+            <OBJID>00000000</OBJID>
+            <VRVEZ>0.00</VRVEZ>
+            <VBAMG>0.000</VBAMG>
+            <VBEAZ>0.00</VBEAZ>
+            <TRAME>0.000</TRAME>
+            <FXHOR>000</FXHOR>
+            <VINT1>000</VINT1>
+            <VINT2>000</VINT2>
+            <LOSGR>0.000</LOSGR>
+            <KAUSF>0.00</KAUSF>
+            <TAKZT>0</TAKZT>
+            <VRBDT>00000000</VRBDT>
+            <VRBFK>0.00</VRBFK>
+            <PREND>00000000</PREND>
+            <PRENG>00000000</PRENG>
+            <PRFRQ>0</PRFRQ>
+            <SHZET>00</SHZET>
+            <MMSTD>00000000</MMSTD>
+            <DPLHO>0</DPLHO>
+            <MINLS>0.000</MINLS>
+            <MAXLS>0.000</MAXLS>
+            <FIXLS>0.000</FIXLS>
+            <LTINC>0.000</LTINC>
+            <COMPL>00</COMPL>
+            <EISLO>0.000</EISLO>
+            <E1MARC1 SEGMENT="1">
+               <SCM_GRPRT>0</SCM_GRPRT>
+               <SCM_GIPRT>0</SCM_GIPRT>
+               <SCM_SCOST>0.000</SCM_SCOST>
+               <SCM_RELDT>0</SCM_RELDT>
+               <SCM_SSPEN>0.000</SCM_SSPEN>
+               <SCM_CONHAP>0.000</SCM_CONHAP>
+               <SCM_CONHAP_OUT>0.000</SCM_CONHAP_OUT>
+               <SCM_SHELF_LIFE_DUR>0</SCM_SHELF_LIFE_DUR>
+               <SCM_MATURITY_DUR>0</SCM_MATURITY_DUR>
+               <SCM_SHLF_LFE_REQ_MIN>0</SCM_SHLF_LFE_REQ_MIN>
+               <SCM_SHLF_LFE_REQ_MAX>0</SCM_SHLF_LFE_REQ_MAX>
+               <SCM_REORD_DUR>0</SCM_REORD_DUR>
+               <SCM_TARGET_DUR>0</SCM_TARGET_DUR>
+               <SCM_PEG_PAST_ALERT>0</SCM_PEG_PAST_ALERT>
+               <SCM_PEG_FUTURE_ALERT>0</SCM_PEG_FUTURE_ALERT>
+               <SCM_PEG_STRATEGY>00</SCM_PEG_STRATEGY>
+               <SCM_PRIO>0</SCM_PRIO>
+               <SCM_MIN_PASS_AMOUNT>0.000</SCM_MIN_PASS_AMOUNT>
+               <SCM_THRUPUT_TIME>0</SCM_THRUPUT_TIME>
+               <SCM_SAFTY_V>0.000</SCM_SAFTY_V>
+               <SCM_PPSAFTYSTK>0.000</SCM_PPSAFTYSTK>
+               <SCM_PPSAFTYSTK_V>0.000</SCM_PPSAFTYSTK_V>
+               <SCM_REPSAFTY>0.000</SCM_REPSAFTY>
+               <SCM_REPSAFTY_V>0.000</SCM_REPSAFTY_V>
+               <SCM_REORD_V>0.000</SCM_REORD_V>
+               <SCM_MAXSTOCK_V>0.000</SCM_MAXSTOCK_V>
+               <SCM_SCOST_PRCNT>0.00</SCM_SCOST_PRCNT>
+               <SCM_PROC_COST>0.000</SCM_PROC_COST>
+               <SCM_NDCOSTWE>0.000</SCM_NDCOSTWE>
+               <SCM_NDCOSTWA>0.000</SCM_NDCOSTWA>
+            </E1MARC1>
+         </E1MARCM>
+         <E1MARMM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <MEINH>PF</MEINH>
+            <UMREZ>48</UMREZ>
+            <UMREN>1</UMREN>
+            <LAENG>0.000</LAENG>
+            <BREIT>0.000</BREIT>
+            <HOEHE>0.000</HOEHE>
+            <VOLUM>0.000</VOLUM>
+            <BRGEW>0.000</BRGEW>
+            <NEST_FTR>0</NEST_FTR>
+            <MAX_STACK>0</MAX_STACK>
+            <CAPAUSE>0.000</CAPAUSE>
+         </E1MARMM>
+         <E1MARMM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <MEINH>PCE</MEINH>
+            <UMREZ>1</UMREZ>
+            <UMREN>1</UMREN>
+            <LAENG>0.000</LAENG>
+            <BREIT>0.000</BREIT>
+            <HOEHE>0.000</HOEHE>
+            <VOLUM>0.180</VOLUM>
+            <VOLEH>MTQ</VOLEH>
+            <BRGEW>18.000</BRGEW>
+            <GEWEI>KGM</GEWEI>
+            <NEST_FTR>0</NEST_FTR>
+            <MAX_STACK>0</MAX_STACK>
+            <CAPAUSE>0.000</CAPAUSE>
+         </E1MARMM>
+         <E1MBEWM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <BWKEY>1710</BWKEY>
+            <VPRSV>V</VPRSV>
+            <VERPR>24.51</VERPR>
+            <STPRS>13.5</STPRS>
+            <PEINH>1</PEINH>
+            <BKLAS>3100</BKLAS>
+            <VMVPR>V</VMVPR>
+            <VMVER>24.51</VMVER>
+            <VMSTP>13.5</VMSTP>
+            <VMPEI>1</VMPEI>
+            <VMBKL>3100</VMBKL>
+            <VJVPR>V</VJVPR>
+            <VJVER>13.5</VJVER>
+            <VJSTP>13.5</VJSTP>
+            <LFGJA>2020</LFGJA>
+            <LFMON>06</LFMON>
+            <ZKPRS>0</ZKPRS>
+            <ZKDAT>00000000</ZKDAT>
+            <BWPRS>0</BWPRS>
+            <BWPRH>0</BWPRH>
+            <VJBWS>0</VJBWS>
+            <VJBWH>0</VJBWH>
+            <VVJLB>0.000</VVJLB>
+            <VVMLB>10058.000</VVMLB>
+            <VVSAL>246484.39</VVSAL>
+            <ZPLPR>0</ZPLPR>
+            <ZPLP1>0</ZPLP1>
+            <ZPLP2>0</ZPLP2>
+            <ZPLP3>0</ZPLP3>
+            <ZPLD1>00000000</ZPLD1>
+            <ZPLD2>00000000</ZPLD2>
+            <ZPLD3>00000000</ZPLD3>
+            <BWPH1>0</BWPH1>
+            <BWPS1>0</BWPS1>
+            <ABWKZ>00</ABWKZ>
+            <PSTAT>B</PSTAT>
+            <KALN1>000100000002</KALN1>
+            <KALNR>000100000003</KALNR>
+            <VERS1>00</VERS1>
+            <VERS2>00</VERS2>
+            <VERS3>00</VERS3>
+            <PPRDZ>000</PPRDZ>
+            <PPRDL>000</PPRDL>
+            <PPRDV>000</PPRDV>
+            <PDATZ>0000</PDATZ>
+            <PDATL>0000</PDATL>
+            <PDATV>0000</PDATV>
+            <VPLPR>0</VPLPR>
+            <MLMAA>X</MLMAA>
+            <MLAST>2</MLAST>
+            <VJBKL>3100</VJBKL>
+            <VJPEI>1</VJPEI>
+            <BWPEI>0</BWPEI>
+         </E1MBEWM>
+         <E1MBEWM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <BWKEY>1711</BWKEY>
+            <VPRSV>S</VPRSV>
+            <VERPR>0</VERPR>
+            <STPRS>10</STPRS>
+            <PEINH>1</PEINH>
+            <BKLAS>3100</BKLAS>
+            <VMVPR>S</VMVPR>
+            <VMVER>0</VMVER>
+            <VMSTP>10</VMSTP>
+            <VMPEI>1</VMPEI>
+            <VMBKL>3100</VMBKL>
+            <VJVPR>S</VJVPR>
+            <VJVER>0</VJVER>
+            <VJSTP>10</VJSTP>
+            <LFGJA>2020</LFGJA>
+            <LFMON>04</LFMON>
+            <ZKPRS>0</ZKPRS>
+            <ZKDAT>00000000</ZKDAT>
+            <BWPRS>0</BWPRS>
+            <BWPRH>0</BWPRH>
+            <VJBWS>0</VJBWS>
+            <VJBWH>0</VJBWH>
+            <VVJLB>0.000</VVJLB>
+            <VVMLB>0.000</VVMLB>
+            <VVSAL>0</VVSAL>
+            <ZPLPR>0</ZPLPR>
+            <ZPLP1>0</ZPLP1>
+            <ZPLP2>0</ZPLP2>
+            <ZPLP3>0</ZPLP3>
+            <ZPLD1>00000000</ZPLD1>
+            <ZPLD2>00000000</ZPLD2>
+            <ZPLD3>00000000</ZPLD3>
+            <BWPH1>0</BWPH1>
+            <BWPS1>0</BWPS1>
+            <ABWKZ>00</ABWKZ>
+            <PSTAT>B</PSTAT>
+            <KALN1>000100003602</KALN1>
+            <KALNR>000100003603</KALNR>
+            <VERS1>00</VERS1>
+            <VERS2>00</VERS2>
+            <VERS3>00</VERS3>
+            <PPRDZ>000</PPRDZ>
+            <PPRDL>000</PPRDL>
+            <PPRDV>000</PPRDV>
+            <PDATZ>0000</PDATZ>
+            <PDATL>0000</PDATL>
+            <PDATV>0000</PDATV>
+            <VPLPR>0</VPLPR>
+            <MLMAA>X</MLMAA>
+            <MLAST>3</MLAST>
+            <VJBKL>3100</VJBKL>
+            <VJPEI>1</VJPEI>
+            <BWPEI>0</BWPEI>
+         </E1MBEWM>
+         <E1MLGNM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <LGNUM>CSS</LGNUM>
+            <LHMG1>0.000</LHMG1>
+            <LHMG2>0.000</LHMG2>
+            <LHMG3>0.000</LHMG3>
+            <MKAPV>0.000</MKAPV>
+         </E1MLGNM>
+         <E1MVKEM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <VKORG>1710</VKORG>
+            <VTWEG>10</VTWEG>
+            <VMSTD>00000000</VMSTD>
+            <AUMNG>0.000</AUMNG>
+            <LFMNG>0.000</LFMNG>
+            <EFMNG>0.000</EFMNG>
+            <SCMNG>0.000</SCMNG>
+            <MTPOS>NORM</MTPOS>
+            <DWERK>1710</DWERK>
+            <KTGRM>01</KTGRM>
+         </E1MVKEM>
+         <E1MLANM SEGMENT="1">
+            <MSGFN>005</MSGFN>
+            <ALAND>US</ALAND>
+            <TATY1>UTXJ</TATY1>
+            <TAXM1>1</TAXM1>
+         </E1MLANM>
+      </E1MARAM>
+   </IDOC>
+</ZMAT_DEMO>
